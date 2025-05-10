@@ -1,0 +1,105 @@
+
+.modal-image {
+    width: 100%;
+    height: auto;
+    max-height: 25rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    opacity: 0.7;
+}
+
+.modal-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    margin-top: 0.5rem;
+}
+
+.modal-source, .modal-date {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1.3rem;
+    color: #bbb;
+    margin-top: 1rem;
+}
+
+.modal-content {
+    position: relative;
+    padding-bottom: 3rem; /* Give space for view count */
+}
+
+
+.modal-content-text {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    line-height: 2.7rem;
+    color: #ddd;
+}
+
+.read-more-link {
+    width: 15rem;
+    display: inline-block;
+    background: linear-gradient(to right, #fff176, #fbc02d);
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    color: black;
+    border-radius: 5rem;
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    left: 0.1rem;
+    cursor: pointer;
+}
+.read-more-link:active {
+    transform: translateY(0.1rem);
+}
+
+
+.modal-views {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 2rem;
+    color: #aaa;
+    font-size: 1.2rem;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.eye-icon{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.news.light .modal-content-text {
+    color: black;
+}
+
+.news.light .modal-title {
+    color: black;
+}
+
+.news.light .modal-source {
+    color: black;
+}
+.news.light .modal-date {
+    color: black;
+}
+.news.light .modal-views{
+    color: black;
+}
+.news.light .modal-image{
+    opacity: 1;
+}
+.news.light .close-button{
+    color: black;
+}
+
+.news.light .read-more-link{
+    background : linear-gradient(to right, #7ba735, #465c1c) ;
+    color: black;
+}
+
+
+
+
+

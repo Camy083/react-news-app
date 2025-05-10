@@ -1,0 +1,73 @@
+.didyouknow-container {
+    background-image: url('./forest.jpg'); /* Put your image in the public directory */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.didyouknow-card {
+    background: rgba(0, 0, 0, 0.6); /* Adjusted opacity for better contrast */
+    backdrop-filter: blur(12px);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.lightbulb-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.didyouknow-card h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+}
+
+.fact-text {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.change-fact-button {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0.6rem 1.5rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(4px);
+}
+
+.change-fact-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+.change-fact-button:active {
+    transform: scale(0.95);
+    background: rgba(255, 255, 255, 0.4); /* Slightly brighter on click */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
