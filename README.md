@@ -14,6 +14,9 @@ Follow these steps to run the project locally:
    ```bash
    git clone https://github.com/Camy083/react-news-app.git
    cd react-news-app
+   cd news-app
+   npm install
+   npm run dev
 
 
 # 🚀 Features Implemented
